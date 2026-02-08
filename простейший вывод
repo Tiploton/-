@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main() 
+{
+    // Устанавливаем русскую локаль для системы
+    setlocale(LC_ALL, "Russian");
+    
+    std::cout << "Привет, мир!";
+}
