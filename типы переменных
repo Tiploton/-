@@ -1,0 +1,14 @@
+#include <iostream> <string>
+using namespace std;
+void main()
+{
+	int age = 5;
+	int age_vzr = 6;
+	cout << "bool " << sizeof(bool) << endl;
+	cout << "char " << sizeof(char) << endl;
+	cout << "int " << sizeof(int) << endl;
+	cout << "float " << sizeof(float) << endl;
+	cout << "double " << sizeof(double) << endl;
+	std::string;
+	cout << age+age_vzr;
+}
