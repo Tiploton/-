@@ -1,1 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float a, b, c, d ;
+	cin >> a;
+	cin >> b;
+	c = a + b;
+	d = c + a + b;
+	cout << c;
+	cout << endl;
+	cout << d;
+
+}
 
