@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+#include <windows.h>
+using namespace std;
+
+void main()
+{
+	setlocale(LC_ALL, "Russian");
+	SetConsoleCP(1251);
+	int kurs;
+	string name, name2;
+	float age;
+	double num;
+	char bykva;
+	setlocale(LC_ALL, "Russian");
+	cin >> (cout << "Введите ваше имя ", name);
+	cin >> (cout << "ВВедите ваш возраст ", age);
+	cin >> (cout << "ВВедите на каком курсе вы учитесь ", kurs);
+	cin >> (cout << "ВВедите число,которое хотите возвести в 10 степень ", num);
+	cin >> (cout << "ВВедите вашу любимую букву,но только одну ", bykva);
+	num = pow(num, 10);
+	cout << "Вы " << name << endl << "Вам " << age << endl << "Вы на " << kurs << " курсе" << endl << "Ваше число " << num << endl << "Ваша любимая буква " << bykva;
+}
