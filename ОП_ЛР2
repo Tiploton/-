@@ -7,7 +7,7 @@ void main()
 {
 	setlocale(LC_ALL, "Russian");
 	SetConsoleCP(1251);
-	int kurs;
+	int kurs, a1, a2, a3, a4, a5, a6, a7, a8, a9;;
 	string name, name2;
 	float age;
 	double num;
@@ -20,4 +20,16 @@ void main()
 	cin >> (cout << "ВВедите вашу любимую букву,но только одну ", bykva);
 	num = pow(num, 10);
 	cout << "Вы " << name << endl << "Вам " << age << endl << "Вы на " << kurs << " курсе" << endl << "Ваше число " << num << endl << "Ваша любимая буква " << bykva;
+	cin >> (cout << "Введите число ", a1);
+	cin >> (cout << "Введите число ", a2);
+	cin >> (cout << "Введите число ", a3);
+	cin >> (cout << "Введите число ", a4);
+	cin >> (cout << "Введите число ", a5);
+	cin >> (cout << "Введите число ", a6);
+	cin >> (cout << "Введите число ", a7);
+	cin >> (cout << "Введите число ", a8);
+	cin >> (cout << "Введите число ", a9);
+	cout << setw(6) << a1 << setw(6) << a2<< setw(6) << a3 <<endl;
+	cout << setw(6) << a4 << setw(6) << a5 << setw(6) << a6 <<endl;
+	cout << setw(6) << a7 << setw(6) << a8 << setw(6) << a9 <<endl;
 }
