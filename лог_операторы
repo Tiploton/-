@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	float a;
+	cin >> a;
+	if (a >= 37.0 || a <= 36.0) {
+		cout << "Сообщить врачу";
+	}
+	else {
+		cout << "Нормальная температура";
+	}
+}
